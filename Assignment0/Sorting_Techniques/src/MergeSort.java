@@ -16,7 +16,7 @@ public class MergeSort {
     }
 
     private static void merge(int arr[], int l, int m, int r) {
-        // Merge logic goes here
+        // Merge logic goes here 
         // Find sizes of two subarrays to be merged
         int n1 = m - l + 1;
         int n2 = r - m;
@@ -64,7 +64,7 @@ public class MergeSort {
             j++;
             k++;
         }
-        
+
     }
     
 }
